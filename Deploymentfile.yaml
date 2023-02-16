@@ -18,9 +18,8 @@ spec:
          image: myapp
          ports:
            - containerPort: 8085
-
-
-
+           
+                      
 ---
 
 apiVersion: v1
