@@ -30,7 +30,7 @@ resource "kubernetes_deployment" "mytestspace" {
       }
       spec {
         container {
-          image = "nginx:1.21.6"
+          image = {{$built_Docker_image}}
           name = "example"
         }
       }
