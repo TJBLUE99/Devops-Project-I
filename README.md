@@ -1,7 +1,6 @@
-# ProjectZ
+
 # Steps
   1. Adding code to repository.
-  2. Build the code using jenkins one each push.
-  3. Build Docker file for application with tomcat.
-  4. Push Built Image into Nexus Repository.
-  5. Deploy built image on minikube cluster using deployment and service file.
+  2. Build the code using jenkins on each push.
+  3. Build a Docker file for the application with tomcat.
+  5. Deploy the built image on minikube cluster using deployment and service file.
